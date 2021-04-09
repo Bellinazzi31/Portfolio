@@ -1,0 +1,21 @@
+{
+    "short_name": "Meu A. Secreto™",
+    "name": "Meu amigo secreto™",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#284296",
+    "theme_color": "#284296",
+    "icons": [
+        {
+          "src": "/static/192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+          "src": "/static/512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/?source=pwa"
+}

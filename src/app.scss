@@ -1,0 +1,38 @@
+// app style
+
+@import './styleguide/font.scss';
+@import './styleguide/color.scss';
+@import './styleguide/spacing.scss';
+@import './styleguide/button.scss';
+
+.app {
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+
+  ::selection {
+    background-color: $secondary;
+  }
+
+  > div {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+  }
+
+  .container {
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  main {
+    @media (max-width: 640px) {
+      padding: 24px 12px;
+    }
+    
+    @media (min-width: 640px) {
+      padding: 36px 24px;
+    }
+  }
+}

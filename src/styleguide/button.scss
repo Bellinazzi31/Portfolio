@@ -1,0 +1,59 @@
+@import './font.scss';
+@import './color.scss';
+@import './spacing.scss';
+
+.button {
+  width: 100%;
+  min-width: 220px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  padding: $spacing-12 $spacing-24;
+  position: relative;
+  margin: auto;
+  display: block;
+
+  &--cta,
+  &--cta-secondary {
+    color: white;
+  }
+
+  &--cta {
+    background-color: $primary;
+  }
+
+  &--cta-secondary {
+    background-color: $secondary;
+  }
+
+  &--cta-steps {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 0;
+    padding: $spacing-16 $spacing-24;
+  }
+
+  &--cta-login {
+    font-size: 12px;
+    border: 1px solid $gray-500;
+    background-color: white;
+
+    img {
+      position: absolute;
+      margin: auto;
+      top: 0; left: 10px;
+      bottom: 0;
+    }
+  }
+
+  &:disabled {
+    color: $gray-500;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

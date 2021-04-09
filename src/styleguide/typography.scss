@@ -1,0 +1,13 @@
+@import './spacing.scss';
+
+.text-title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: $spacing-12;
+  display: block;
+}
+
+.text-paragraph {
+  font-size: 12px;
+}
