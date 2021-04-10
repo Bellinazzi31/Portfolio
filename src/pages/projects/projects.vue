@@ -5,17 +5,17 @@
         <h1>Projects</h1>
         <br>
         <div class="projects__list">
-          <a href="#" target="_blank" class="projects__item">
-            <h3>Project title</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. ⚡️</p>
+          <a href="https://github.com/Bellinazzi31/Okotoks-Pizza" target="_blank" class="projects__item">
+            <h3>Okotoks-Pizza</h3>
+            <p>This is my very first coding project, created with HTML and CSS. It's a website for a potential pizza restaurant that really enjoyed creating..⚡️</p>
           </a>
-          <a href="#" target="_blank" class="projects__item">
-            <h3>Project title</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. ⚡️</p>
+          <a href="https://github.com/Bellinazzi31/css-dropdown-" target="_blank" class="projects__item">
+            <h3>Dropdown-Menu</h3>
+            <p>Here's another sample of my work. It's a basic dropdown menu that's very user friendly.⚡️</p>
           </a>
-          <a href="#" target="_blank" class="projects__item">
-            <h3>Project title</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. ⚡️</p>
+          <a href="https://github.com/Bellinazzi31/twiter2" target="_blank" class="projects__item">
+            <h3>Tweeter-Backend</h3>
+            <p>This is my first Backend project. I used SQL, API and Python. ⚡️</p>
           </a>
         </div>
       </div>

@@ -3,9 +3,6 @@
     <main>
      <div class="container">
         <h1>Contact</h1>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-        <br><br>
         <form v-on:submit.prevent="submit" class="form">
           <div class="form__field">
             <label for="name">Name:</label>
@@ -86,7 +83,7 @@
         input, textarea {
           width: 100%;
           font-size: 16px;
-          color: #999;
+          color: rgb(15, 13, 13);
           border-radius: 4px;
           border-bottom: 2px solid #eee;
           padding: 12px 0;

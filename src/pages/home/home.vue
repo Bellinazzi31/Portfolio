@@ -2,10 +2,15 @@
   <div class="home">
     <main>
       <div class="container">
-        <h1>Hi, I'm Felipe Bellinazzi 👋🏼</h1>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>You can find me on <a href="#" target="_blank">GitHub</a>, <a href="#" target="_blank">Twitter</a> and <a href="#" target="_blank">LinkedIn</a>.</p>
+        <div class="text">
+          <h1>Hi, I'm Felipe Bellinazzi 👋🏼</h1>
+          <br>
+          <p>Several years ago, I started to gain interest in coding and web development. So I decided to enroll myself in a Full Stack Development program at InnoTech College. I've been learning and enhancing my skills for the past 8 months. While challenging at times, it's also been quite rewarding, especially when I get to build websites from scratch. I have a long way to go, but I am constantly working, reading, experimenting, and creating. </p>
+          <p>You can find me on <a href="https://github.com/Bellinazzi31" target="_blank">GitHub</a>, <a href="https://www.linkedin.com/in/felipe-bellinazzi/" target="_blank">LinkedIn</a> and <a href="https://drive.google.com/file/d/1Vu6ns_jWLhfEthOdLUwADg6GeA1wreoc/view?usp=sharing" target="_blank">Resume.</a></p>
+        </div>
+        <div class="photo">
+          <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHTr6lw8KhN7Q/profile-displayphoto-shrink_800_800/0/1616009491218?e=1623283200&v=beta&t=kpikXnw7isoQ_BeZ6qBaF0-zFQ6vLyveYprO04DjRAI">
+        </div>  
       </div>
     </main>
   </div>
@@ -29,18 +34,36 @@
     main {
       flex: 1;
       display: flex;
+      
 
       @media (min-width: 1280px) {
-        p {
-          max-width: 50%;
+        .text {
+          flex: 0 50%;
         }
       }
     }
 
     .container {
+      display: flex;
+      justify-content: space-between;
       width: 100%;
       animation-duration: 1s;
       animation-name: fadeIn;
+    }
+
+    
+    
+    .photo {
+      flex: 0 100px 100px;
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      border-radius: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
 
     @keyframes fadeIn {

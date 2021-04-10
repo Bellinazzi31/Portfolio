@@ -3,7 +3,7 @@
     <div class="container">
       <div>
         <span class="header__logo">
-          <router-link to="/">Bellinazzi</router-link>
+          <router-link to="/">Home</router-link>
         </span>
       </div>
       <ul class="header__menu">
@@ -31,7 +31,8 @@ export default {
   
   .header {
     width: 100%;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgb(230, 106, 106);
+    background-color: rgb(255, 209, 169);
 
     .container {
       justify-content: space-between;

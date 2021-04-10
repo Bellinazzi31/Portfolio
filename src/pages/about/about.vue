@@ -4,7 +4,12 @@
      <div class="container">
         <h1>About</h1>
         <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>I was born in Sao Paulo, Brazil and moved to Canada at the age of 17. I didn't know much about Canada, except that it gets a lot of snow. After having moved to Calgary, Alberta, I can now say that is a definite fact. Learning the English language was challenging, but also exciting, as it has always been my dream to live in an English speaking country and become fully biligual.
+          <br></br>
+          After graduating high school, I started working full time with the goal of saving as much money as I can. After years of working jobs I wasn't passionate about, I decided to find and follow something more interesting. That is why I learned how to code. I wanted to feel like I can create something from scratch, and with the digital age in full swing, I decided to take my shot at building websites. My goal is to create simple, classy websites that are user friendly. 
+          <br></br>
+          Check out my portfolio, and if you have any questions or comments, please <a href="contact">contact me</a>. Thank you for visiting!
+        </p>
         <br><br>
         <h2>My skills</h2>
         <br>
@@ -13,6 +18,8 @@
           <li class="skill css">CSS / SASS</li>
           <li class="skill javascript">JavaScript</li>
           <li class="skill vue">Vue</li>
+          <li class="skill sql">SQL</li>
+          <li class="skill python">Python</li>
         </ul>
       </div>
     </main>
@@ -83,7 +90,7 @@
       }
 
       &.javascript:after {
-        max-width: 140px;
+        max-width: 100px;
         animation-delay: 0.6s;
         background-color: #FFEE58;
       }
@@ -92,6 +99,18 @@
         max-width: 100px;
         animation-delay: 0.8s;
         background-color: #66BB6A;
+      }
+
+      &.sql:after {
+        max-width: 120px;
+        animation-delay: 1s;
+        background-color: rgba(19, 17, 17, 0.808);
+
+      }
+      &.python:after {
+        max-width: 130px;
+        animation-delay: 1.2s;
+        background-color: rgb(60, 171, 207);
       }
     }
 
